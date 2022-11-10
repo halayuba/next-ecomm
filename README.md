@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## MERN + NEXT & Tailwind - LAZEEZA
+
+- Author: Simon Bashir (Full-stack Developer, Store Creator & Manager, Importer, Distributor)
+- Version: 0.1
+- Release Date: Nov 7, 2022
+- To see a hosted demo you can visit [lazeeza.us](http://www.lazeeza.us)
+
+### Brief Description
+Coded using the mern stack, Lazeeza is an ecommerce business specializing in selling the finest Mediterranean Baklava. The Lazeeza warehouse is based in Kansas City and we ship the best assortment of Baklava imported from the best producer from Dubai.
+
+### Basic Features
+1. Lazeeza offers the highest quality Mediterranean Baklava at the best price in all USA.
+2. Lazeeza's customers can order and pay online. Lazzeza is powered by Stripe for secure payment processing.
+3. Lazeeza's customers come from different ethnicities and backgrounds so we are always excited to hear your comments and we truly value all feedback.
+4. Customers can view past orders and payments.
+
+### Screen Shots
+Coming soon
+
+### Disclaimer
+This is a public version of the project and is here as just a demo. The main intent for this github repo is to demonstrate my technical competency and development skills. Although this repo does not have any license restrictions, I offer no active support and I do not guarantee the stability of the code so be cautious not to use in any production environment.
 
 ## Getting Started
 
@@ -32,3 +52,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Maintainers & Contributors
+- Simon Bashir
+
+### License
+The project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
