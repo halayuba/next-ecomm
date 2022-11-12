@@ -1,0 +1,42 @@
+.input_group{
+  @apply mt-6 flex flex-col items-center gap-2
+}
+
+.input_group button {
+  @apply mt-4
+}
+
+.button_group{
+  @apply mt-10 flex flex-col items-center gap-4
+}
+
+.form_input{
+  @apply w-80 border rounded-md p-4;
+  @apply focus:border-none outline-none
+}
+
+.form_input + *{
+  color: #CBD5E1
+}
+
+.form_input:focus + *{
+  color: #6366f1
+}
+
+.form_input_icon{
+  @apply absolute right-2 cursor-pointer;
+}
+
+.form_input_icon:hover{
+  color: #6366f1
+}
+
+.button{
+  @apply w-64 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-md py-3 text-gray-50 text-xl shadow-lg;
+  @apply hover:opacity-90
+}
+
+.button_social{
+  @apply flex justify-center items-center gap-2 w-56 border rounded-md py-3 text-gray-600 text-lg shadow;
+  @apply hover:bg-gray-200
+}

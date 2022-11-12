@@ -28,3 +28,7 @@ a {
     background: black;
   }
 }
+
+.containerView{
+  @apply container mx-auto max-w-6xl p-8;
+}
