@@ -1,5 +1,6 @@
 import create from 'zustand'
 import storeData from '@/data/items.json'
+import data from '@/utils/data'
 import toast from 'react-hot-toast'
 
 const useCartStore = create((set, get) => ({
@@ -7,7 +8,9 @@ const useCartStore = create((set, get) => ({
   cart: [],
   cartQuantity: 0,
   cartTotal: 0,
-  products: storeData,
+  products: data.products,
+  // products: storeData,
+  product: null,
 
    //== RESET CART
   //====================
@@ -75,7 +78,15 @@ const useCartStore = create((set, get) => ({
         return total + ((item?.price || 0) * cartItem.quantity)
       }, 0)
     }))
-  }
+  },
+
+   //== GET PRODUCT DETAIL
+  //====================
+  getProduct: (slug) => {
+    set((state) => ({
+      product: state.products.find(x => x.slug === slug)
+    }))
+  },
   
 }))
 

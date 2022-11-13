@@ -32,3 +32,7 @@ a {
 .containerView{
   @apply container mx-auto max-w-6xl p-8;
 }
+
+.card{
+  @apply block border border-gray-200 rounded-lg shadow-md;
+}
